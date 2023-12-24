@@ -1,0 +1,47 @@
+[debug] [2023-10-07T21:51:29.426Z] ----------------------------------------------------------------------
+[debug] [2023-10-07T21:51:29.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-07T21:51:29.427Z] CLI Version:   12.6.1
+[debug] [2023-10-07T21:51:29.427Z] Platform:      win32
+[debug] [2023-10-07T21:51:29.428Z] Node Version:  v16.15.0
+[debug] [2023-10-07T21:51:29.428Z] Time:          Sat Oct 07 2023 23:51:29 GMT+0200 (Central European Summer Time)
+[debug] [2023-10-07T21:51:29.428Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-07T21:51:29.433Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-07T21:51:29.434Z] > authorizing via signed-in user (latifmrrolani@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\redirectphp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-07T21:51:35.415Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-10-07T21:51:36.368Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-10-07T21:51:36.368Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project foto-45692349234 (foto-45692349234) 
+[info] 
+=== Hosting Setup
+[debug] [2023-10-07T21:51:37.656Z] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at getConfig (C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\express\index.js:16:30)
+    at async discover (C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\express\index.js:24:43)
+    at async discover (C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:46:32)
+    at async doSetup (C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:22:11)
+    at async init (C:\Users\dajax\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
